@@ -1,1 +1,12 @@
-
+{
+  "vidlove.cc": {
+    "icon": "https://a.favicon.im/player.vidlove.cc?larger=true",
+    "title": "vidlove.cc",
+    "id_type": "tmdb",
+    "url_schema": {
+      "movies": "https://player.vidlove.cc/embed/movie/{id}?primarycolor=ff4d6d&secondarycolor=c49de8",
+      "tv": "https://player.vidlove.cc/embed/tv/{id}/{season}/{episode}?primarycolor=ff4d6d&secondarycolor=c49de8",
+      "anime": "https://player.vidlove.cc/embed/tv/{id}/{season}/{episode}?primarycolor=ff4d6d&secondarycolor=c49de8"
+    }
+  }
+}
