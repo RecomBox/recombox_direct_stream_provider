@@ -2,7 +2,11 @@
   "vidlove.cc": {
     "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/vidlove.png?raw=true",
     "title": "vidlove.cc",
-    "id_type": "tmdb",
+    "id_type": {
+      "movies": "tmdb",
+      "tv": "tmdb",
+      "anime": "tmdb"
+    },
     "url_schema": {
       "movies": "https://player.vidlove.cc/embed/movie/{id}?primarycolor=ff4d6d&secondarycolor=c49de8",
       "tv": "https://player.vidlove.cc/embed/tv/{id}/{season}/{episode}?primarycolor=ff4d6d&secondarycolor=c49de8",
