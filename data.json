@@ -15,7 +15,7 @@
     "allowed_navigation_origin": ["vidlove.cc"]
   },
   "vixsrc.to": {
-    "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/vidlove.png?raw=true",
+    "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/vixsrc.png?raw=true",
     "title": "vixsrc.to",
     "id_type": {
       "movies": "tmdb",
