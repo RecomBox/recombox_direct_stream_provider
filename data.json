@@ -7,6 +7,7 @@
       "movies": "https://player.vidlove.cc/embed/movie/{id}?primarycolor=ff4d6d&secondarycolor=c49de8",
       "tv": "https://player.vidlove.cc/embed/tv/{id}/{season}/{episode}?primarycolor=ff4d6d&secondarycolor=c49de8",
       "anime": "https://player.vidlove.cc/embed/tv/{id}/{season}/{episode}?primarycolor=ff4d6d&secondarycolor=c49de8"
-    }
+    },
+    "allowed_navigation_origin": ["vidlove.cc"]
   }
 }
