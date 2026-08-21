@@ -13,5 +13,20 @@
       "anime": "https://player.vidlove.cc/embed/tv/{id}/{season}/{episode}?primarycolor=ff4d6d&secondarycolor=c49de8"
     },
     "allowed_navigation_origin": ["vidlove.cc"]
+  },
+  "filmu.in": {
+    "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/vidlove.png?raw=true",
+    "title": "filmu.in",
+    "id_type": {
+      "movies": "tmdb",
+      "tv": "tmdb",
+      "anime": "anilist"
+    },
+    "url_schema": {
+      "movies": "https://embed.filmu.in/movie/{id}",
+      "tv": "https://embed.filmu.in/tv//{id}/{season}/{episode}",
+      "anime": "https://embed.filmu.in/anime/{id}/{season}/{episode}"
+    },
+    "allowed_navigation_origin": ["vidlove.cc"]
   }
 }
