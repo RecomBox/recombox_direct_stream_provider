@@ -13,5 +13,20 @@
       "anime": "https://player.vidlove.cc/embed/tv/{id}/{season}/{episode}?primarycolor=ff4d6d&secondarycolor=c49de8"
     },
     "allowed_navigation_origin": ["vidlove.cc"]
+  },
+  "vixsrc.to": {
+    "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/vidlove.png?raw=true",
+    "title": "vixsrc.to",
+    "id_type": {
+      "movies": "tmdb",
+      "tv": "tmdb",
+      "anime": "tmdb"
+    },
+    "url_schema": {
+      "movies": "https://vixsrc.to/movie/{id}",
+      "tv": "https://vixsrc.to/tv/{id}/{season}/{episode}",
+      "anime": "https://vixsrc.to/tv/{id}/{season}/{episode}"
+    },
+    "allowed_navigation_origin": ["vixsrc.to"]
   }
 }
