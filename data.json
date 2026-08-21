@@ -27,6 +27,6 @@
       "tv": "https://embed.filmu.in/tv//{id}/{season}/{episode}",
       "anime": "https://embed.filmu.in/anime/{id}/{season}/{episode}"
     },
-    "allowed_navigation_origin": ["vidlove.cc"]
+    "allowed_navigation_origin": ["filmu.in"]
   }
 }
