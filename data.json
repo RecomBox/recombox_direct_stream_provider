@@ -28,5 +28,20 @@
       "anime": "https://vixsrc.to/tv/{id}/{season}/{episode}"
     },
     "allowed_navigation_origin": ["vixsrc.to"]
+  },
+  "superembed.stream": {
+    "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/superembed.stream.png?raw=true",
+    "title": "superembed.stream",
+    "id_type": {
+      "movies": "tmdb",
+      "tv": "tmdb",
+      "anime": "tmdb"
+    },
+    "url_schema": {
+      "movies": "https://multiembed.mov/directstream.php?video_id={id}&tmdb=1",
+      "tv": "https://multiembed.mov/directstream.php?video_id={id}&tmdb=1&s={season}&e={episode}",
+      "anime": "https://multiembed.mov/directstream.php?video_id={id}&tmdb=1&s={season}&e={episode}"
+    },
+    "allowed_navigation_origin": ["superembed.stream", "streamingnow.mov", "multiembed.mov"]
   }
 }
