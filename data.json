@@ -38,9 +38,9 @@
       "anime": "tmdb"
     },
     "url_schema": {
-      "movies": "https://multiembed.mov/directstream.php?video_id={id}&tmdb=1",
-      "tv": "https://multiembed.mov/directstream.php?video_id={id}&tmdb=1&s={season}&e={episode}",
-      "anime": "https://multiembed.mov/directstream.php?video_id={id}&tmdb=1&s={season}&e={episode}"
+      "movies": "https://multiembed.mov/?video_id={id}&tmdb=1",
+      "tv": "https://multiembed.mov/?video_id={id}&tmdb=1&s={season}&e={episode}",
+      "anime": "https://multiembed.mov/?video_id={id}&tmdb=1&s={season}&e={episode}"
     },
     "allowed_navigation_origin": ["superembed.stream", "streamingnow.mov", "multiembed.mov"]
   }
