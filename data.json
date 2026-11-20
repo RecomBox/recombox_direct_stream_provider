@@ -44,23 +44,6 @@
     },
     "allowed_navigation_origin": ["superembed.stream", "streamingnow.mov", "multiembed.mov"]
   },
-  "vidsrc.to": {
-    "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/vidsrc.jpg?raw=true",
-    "title": "vidsrc.to",
-    "id_type": {
-      "movies": "tmdb",
-      "tv": "tmdb",
-      "anime": "tmdb"
-    },
-    "url_schema": {
-      "movies": "https://vidsrc.to/embed/movie/{id}",
-      "tv": "https://vidsrc.to/embed/tv/{id}/{season}/{episode}",
-      "anime": "https://vidsrc.to/embed/tv/{id}/{season}/{episode}"
-    },
-    "allowed_navigation_origin": [
-      "vidsrc.to"
-    ]
-  },
   "framextv.cc": {
     "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/framextv.cc.png?raw=true",
     "title": "framextv.cc",
