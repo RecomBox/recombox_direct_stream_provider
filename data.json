@@ -60,5 +60,23 @@
     "allowed_navigation_origin": [
       "vidsrc.to"
     ]
+  },
+  "framextv.cc": {
+    "icon": "https://github.com/RecomBox/recombox_direct_stream_provider/blob/main/icons/framextv.cc.png?raw=true",
+    "title": "framextv.cc",
+    "id_type": {
+      "movies": "tmdb",
+      "tv": "tmdb",
+      "anime": "tmdb"
+    },
+    "url_schema": {
+      "movies": "https://framextv.xyz/embed/{id}",
+      "tv": "https://framextv.xyz/embed/{id}/{season}/{episode}",
+      "anime": "https://framextv.xyz/embed/{id}/{season}/{episode}"
+    },
+    "allowed_navigation_origin": [
+      "framextv.xyz",
+      "framextv.cc"
+    ]
   }
 }
